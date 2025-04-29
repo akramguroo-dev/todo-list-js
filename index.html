@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="styles/to-do-list.css">
+  </head>
+  <body>
+    <div class="container">
+      <h2>To-Do List</h2>
+      <div class="input-container">
+        <input type="text" id="task" placeholder="Enter task">
+        <input type="date" id="date">
+        <button onclick="
+          addTask();
+        ">Add</button>
+      </div>
+      <p id="message" class="message"></p>
+      <ul id="taskList"></ul>
+    </div>
+    <script src="scripts/to-do-list.js"></script>
+  </body>

@@ -1,0 +1,62 @@
+/* Basic styles for the page layout */
+body {
+  font-family: Arial, sans-serif;
+  background: rgb(244, 244, 244);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  width: 500px; 
+}
+h2 {
+  text-align: center;
+}
+.input-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+input, button {
+  font-size: 20px;
+  padding: 8px;
+  border: 1px solid rgb(221, 221, 221);
+  border-radius: 4px;
+}
+input {
+  flex: 1;
+}
+button {
+  background: rgb(40, 167, 69);
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+.message {
+  color: red;
+  text-align: center;
+  margin-top: 5px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(238, 238, 238);
+  font-size: 20px;
+  margin: 5px 0;
+  padding: 8px;
+  border-radius: 4px;
+}
+.delete {
+  background: red;
+  padding: 5px;
+}
