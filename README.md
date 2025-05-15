@@ -15,7 +15,7 @@ A simple to-do list application to manage daily tasks.
 ![Project Demo](./screenshots/demo.png)
 
 ## Live Demo
-(https://akramguroo-dev.github.io/todo-list-js/)
+🔗 [View Project on GitHub Pages](https://akramguroo-dev.github.io/todo-list-js/)
 
 ## Author
 - Akram Guroo (github.com/akramguroo-dev)
